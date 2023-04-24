@@ -1,0 +1,70 @@
+/* #E0DFD5 #313638 #d0d0d0 #D8DAD3 header color: #212529 */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#pageContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10vh;
+}
+
+h2 {
+    margin-top: 5vh;
+}
+
+a {
+    text-decoration: none;
+}
+
+#carouselWrap {
+    background-color: #d0d0d0;
+}
+
+#carouselFrame {
+    height: 100vh;
+}
+
+#caroItem {
+    height: 100vh;
+}
+
+#cardsWrap {
+    padding: 5vw;
+    border: 1px solid black;
+    margin-top: 5vw;
+}
+
+footer {
+    padding: 5rem;
+    width: 100%;
+}
+
+footer a {
+    text-decoration: none;
+    
+}
+
+#b1 {
+    background-color:rgb(5, 224, 231);
+}
+
+#b2 {
+    background-color: rgb(7, 48, 173);
+}
+
+#aboutInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+#navDropDown {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

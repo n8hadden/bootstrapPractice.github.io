@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  
+    <link rel="stylesheet" href="style.css">
+    <title>Contact Us</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-dark fixed-top bg-dark mb-4">
+        <div class="container-fluid mb-2">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarToggleContent" aria-controls="navbarToggleContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+        <div class="collapse" id="navbarToggleContent">
+          <div class="bg-dark navbar-nav navbar-dark shadow-3 p-4">
+            <button class="btn btn-block m-0"><a class="nav-link" href="index.html">Home</a></button>
+            <button class="btn btn-block m-0"><a class="nav-link" href="shop.html">Shop</a></button>
+            <button class="btn btn-block m-0"><a class="nav-link"href="contact.html">Contact</a></button>
+            <button class="btn btn-block m-0"><a class="nav-link"href="about.html">About</a></button>
+          </div>
+        </div>
+      </nav>
+
+    <div id="pageContent" class="container">
+        <div id="title">
+            <h2>Contact Us</h2>
+            <p id="contactDescription">If you have any questions or concerns, or would like to give us feedback of any kind, please fill out the form below.</p>
+        </div>
+
+        <form class="container mb-5">
+            <div id="email" class="mb-4">
+                <label for="eml" class="form-label">Email Address</label>
+                <input type="email" placeholder="email@email.com" id="eml" class="form-control" required>
+            </div>
+
+            <div id="phone#" class="mb-4">
+                <label for="phone" class="form-label">Phone Number (Optional)</label>
+                <input type="tel" class="form-control" id="phone" placeholder="123-456-7890">
+            </div>
+
+            <div id="message" class="mb-4">
+                <label for="msg" class="form-label">Feedback or Information</label>
+                <input type="text" class="form-control" id="msg" placeholder="Feedback" required>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+
+    <footer class="bg-dark text-white text-center" id="foot">
+        <div class="row mx-auto mb-4">
+          <div class="col-sm">
+            <a href="shop.html" class="text-reset">Shop</a>
+          </div>
+          <div class="col-sm">
+            <a href="contact.html" class="text-reset">Contact Us</a>
+          </div>
+          <div class="col-sm">
+            <a href="about.html" class="text-reset">About</a>
+          </div>
+        </div>
+        <div class="row">
+          <p>&copy; All Rights Reserved</p>
+        </div>
+      </footer>
+</body>
+
+</html>
